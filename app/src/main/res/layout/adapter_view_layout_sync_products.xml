@@ -77,15 +77,15 @@
 
             <Button
                 android:id="@+id/buttonProductQuantityPlus"
-                style="@android:style/Widget.Material.Button.Colored"
+                style="@android:style/Widget.Material.Button.Borderless"
                 android:layout_width="35dp"
                 android:layout_height="30dp"
+                android:layout_marginBottom="5dp"
                 android:background="@android:color/holo_blue_light"
                 android:focusable="false"
                 android:focusableInTouchMode="false"
                 android:text="+"
-                android:textAppearance="@android:style/TextAppearance.Material.Button"
-                android:layout_marginBottom="5dp"/>
+                android:textAppearance="@android:style/TextAppearance.Material.Button" />
 
 
         </LinearLayout>
