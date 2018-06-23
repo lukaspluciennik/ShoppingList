@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Lista Zakupów</string>
+    <string name="textViewListName">Nazwa listy</string>
+    <string name="textViewDate">Data listy</string>
+    <string name="textViewNumOfProducts">Liczba produktów</string>
+    <string name="textViewRealized">Zrealizowana</string>
+    <string name="textViewProductSyncName">Nazwa produktu</string>
+    <string name="textViewProductSyncUnit">Jednostka produktu</string>
+    <string name="textViewProductQuantity">Liczba produktów</string>
+    <string name="textViewProductStatus">Status produktu</string>
+    <string name="editTextNewProductName">Nazwa nowego produktu</string>
+    <string name="btnAddNewProduct">Dodaj</string>
+    <string name="btnAddPicture">Zdjęcie</string>
+    <string name="editTextAddUnit">Dodaj jednostkę produktu</string>
+    <string name="buttonAddImage">Galeria</string>
+    <string name="editText">Nazwa nowej listy</string>
+    <string name="btnAddList">Dodaj</string>
+    <string name="btnViewAllLists">Wróć</string>
+    <string name="editTextDate">Podaj datę realizacji</string>
+    <string name="buttonAddNewProduct">Dodaj produkt do listy</string>
+    <string name="textViewProductName">Nazwa produktu</string>
+    <string name="textViewProductUnit">Jednostka produktu</string>
+    <string name="buttonAddNewList">Dodaj nową listę</string>
+</resources>

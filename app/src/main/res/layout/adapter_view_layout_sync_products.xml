@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+
+
+    <TextView
+        android:id="@+id/textViewSyncProductName"
+        android:layout_width="416dp"
+        android:layout_height="192dp"
+        android:layout_weight="66.6"
+        android:gravity="center"
+        android:text="@string/textViewProductSyncName"
+        android:textAppearance="@android:style/TextAppearance.Material.Widget.ActionBar.Title"
+        android:textSize="12pt" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="33.3"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp">
+
+
+        <TextView
+            android:id="@+id/textViewSyncProductUnit"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="@string/textViewProductSyncUnit"
+            android:textAppearance="@android:style/TextAppearance.Material.Widget.DropDownItem" />
+
+        <TextView
+            android:id="@+id/textViewProductQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/textViewProductQuantity" />
+
+        <TextView
+            android:id="@+id/textViewProductStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/textViewProductStatus" />
+
+        <ImageView
+            android:id="@+id/imageViewSyncProductImage"
+            android:layout_width="match_parent"
+            android:layout_height="123dp"
+            android:paddingTop="5dp"
+            app:srcCompat="@mipmap/ic_zakupy" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="5dp">
+
+            <Button
+                android:id="@+id/buttonProductQuantityMinus"
+                style="@android:style/Widget.Material.Button.Borderless.Colored"
+                android:layout_width="35dp"
+                android:layout_height="30dp"
+                android:background="@android:color/holo_green_light"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:text="-"
+                android:textAppearance="@android:style/TextAppearance.Material.Button"
+                android:layout_marginBottom="5dp"/>
+
+            <Button
+                android:id="@+id/buttonProductQuantityPlus"
+                style="@android:style/Widget.Material.Button.Colored"
+                android:layout_width="35dp"
+                android:layout_height="30dp"
+                android:background="@android:color/holo_blue_light"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:text="+"
+                android:textAppearance="@android:style/TextAppearance.Material.Button"
+                android:layout_marginBottom="5dp"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

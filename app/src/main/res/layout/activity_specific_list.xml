@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/textViewListName"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="@string/textViewListName"
+        android:textAppearance="@android:style/TextAppearance.Material.Title" />
+
+    <TextView
+        android:id="@+id/textViewListDate"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="@string/textViewDate"
+        android:textAppearance="@android:style/TextAppearance.Material.Title" />
+
+    <Button
+        android:id="@+id/buttonAddNewProduct"
+        style="@android:style/Widget.Material.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:background="@android:color/holo_green_light"
+        android:text="@string/buttonAddNewProduct"
+        android:textAllCaps="true"
+        android:textAppearance="@android:style/TextAppearance.StatusBar.Title" />
+
+    <ListView
+        android:id="@+id/listViewSyncProducts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

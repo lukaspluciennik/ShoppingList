@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_weight="33.3"
+        android:gravity="center"
+        android:text="@string/textViewListName"
+        android:textSize="14pt"
+        android:textAppearance="@android:style/TextAppearance.Material.Widget.ActionBar.Title" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="66.6">
+
+        <TextView
+            android:id="@+id/textViewDate"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="@string/textViewDate"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewNumOfProducts"
+            android:gravity="center"
+            android:text="@string/textViewNumOfProducts"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/textViewDate"/>
+
+        <TextView
+            android:id="@+id/textViewListRealized"
+            android:gravity="center"
+            android:text="@string/textViewRealized"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/textViewNumOfProducts"/>
+
+    </LinearLayout>
+
+</LinearLayout>
