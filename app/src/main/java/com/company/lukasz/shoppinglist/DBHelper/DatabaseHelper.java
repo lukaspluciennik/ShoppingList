@@ -8,27 +8,27 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
 
-    public static final String DATABASE_NAME = "shopping.db";
+    private static final String DATABASE_NAME = "shopping.db";
     //tabela shoppingTable
-    public static final String TABLE_NAME = "shopping_table";
-    public static final String COL1 = "S_ID";
-    public static final String COL2 = "S_NAME";
-    public static final String COL3 = "S_DATE";
-    public static final String COL4 = "S_NUMOFPRODUCTS";
-    public static final String COL5 = "S_REALIZED";
+    private static final String TABLE_NAME = "shopping_table";
+    private static final String COL1 = "S_ID";
+    private static final String COL2 = "S_NAME";
+    private static final String COL3 = "S_DATE";
+    private static final String COL4 = "S_NUMOFPRODUCTS";
+    private static final String COL5 = "S_REALIZED";
     //tabela productsTable
-    public static final String TABLE_NAME_PRODUCTS = "products_table";
-    public static final String COL1_PRODUCTS = "P_ID";
-    public static final String COL2_PRODUCTS = "P_NAME";
-    public static final String COL3_PRODUCTS = "P_UNIT";
-    public static final String COL4_PRODUCTS = "P_PICTURE";
+    private static final String TABLE_NAME_PRODUCTS = "products_table";
+    private static final String COL1_PRODUCTS = "P_ID";
+    private static final String COL2_PRODUCTS = "P_NAME";
+    private static final String COL3_PRODUCTS = "P_UNIT";
+    private static final String COL4_PRODUCTS = "P_PICTURE";
     //tabela syncProductsShoppingTable
-    public static final String TABLE_NAME_SYNC = "sync_table";
-    public static final String COL1_SYNC = "SYNC_ID";
-    public static final String COL2_SYNC = "S_ID";
-    public static final String COL3_SYNC = "P_ID";
-    public static final String COL4_SYNC = "P_QUANTITY";
-    public static final String COL5_SYNC = "P_STATUS";
+    private static final String TABLE_NAME_SYNC = "sync_table";
+    private static final String COL1_SYNC = "SYNC_ID";
+    private static final String COL2_SYNC = "S_ID";
+    private static final String COL3_SYNC = "P_ID";
+    private static final String COL4_SYNC = "P_QUANTITY";
+    private static final String COL5_SYNC = "P_STATUS";
 
     public DatabaseHelper(Context context) {
         super(context, DATABASE_NAME, null, 1);
